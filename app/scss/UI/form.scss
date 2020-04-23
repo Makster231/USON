@@ -1,0 +1,34 @@
+.form-control {
+  width: 100%;
+  display: block;
+  margin-bottom: 50px;
+
+  @media (max-width: 960px) {
+    margin-bottom: 40px;
+  }
+  label {
+    display: none;
+  }
+  input {
+    display: block;
+    width: 100%;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    background-color: transparent;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid $brand-primary;
+    font-size: 10px;
+    color: $brand-default;
+    transition: 0.4s ease;
+    &:focus,
+    &:hover {
+      border-color: darken($brand-primary, 10%);
+    }
+    &:active {
+      transition: 0s;
+      border-color: darken($brand-primary, 20%);
+    }
+  }
+}

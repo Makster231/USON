@@ -1,0 +1,73 @@
+.icon_contract,
+.icon_target,
+.icon_suitcase {
+  display: block;
+  width: 64px;
+  height: 58px;
+  background: url("../../images/css_sprites.png") -174px -10px;
+}
+
+.icon_contract {
+  width: 60px;
+  height: 91px;
+  background: url("../../images/css_sprites.png") -10px -10px;
+}
+
+.icon_target {
+  height: 64px;
+  background: url("../../images/css_sprites.png") -90px -10px;
+}
+
+.icon_suitcase {
+  background: url("../../images/css_sprites.png") -174px -10px;
+}
+
+.icon_mail,
+.icon_phone,
+.icon_plus,
+.icon_instagram,
+.icon_youtube,
+.icon_vk,
+.icon_twitter,
+.icon_facebook {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.icon_plus {
+  background: url("../../images/css_sprites.png") -191px -121px;
+}
+
+.icon_instagram {
+  background: url("../../images/css_sprites.png") -10px -121px;
+  width: 25px;
+}
+
+.icon_youtube {
+  background: url("../../images/css_sprites.png") -10px -165px;
+}
+
+.icon_vk {
+  width: 25px;
+  background: url("../../images/css_sprites.png") -102px -121px;
+}
+
+.icon_twitter {
+  width: 26px;
+  background: url("../../images/css_sprites.png") -56px -121px;
+}
+
+.icon_facebook {
+  width: 25px;
+  background: url("../../images/css_sprites.png") -54px -165px;
+}
+
+.icon_mail {
+  height: 17px;
+  background: url("../../images/css_sprites.png") -98px -165px;
+}
+
+.icon_phone {
+  background: url("../../images/css_sprites.png") -147px -121px;
+}

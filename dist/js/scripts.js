@@ -1,0 +1,1 @@
+"use strict";!function(o,n,t){o(function(){o(".js_nav-scroll").on("click","a",function(t){var i=o(this).attr("href"),c=o(i).offset().top;o(n).width()<767&&(c-=50),o("body,html").animate({scrollTop:c},600)})})}(window.jQuery,window,document),function(o,n,t){o(function(){o("body").css("opacity","1")})}(window.jQuery,window,document);

@@ -1,0 +1,29 @@
+.btn {
+  width: 100%;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  background-color: $brand-primary;
+  color: $brand-white !important;
+  transition: 0.4s ease;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: darken($brand-primary, 10%);
+  }
+  &:active {
+    background-color: darken($brand-primary, 20%);
+    transition: 0s;
+  }
+
+  @media (max-width: 960px) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
